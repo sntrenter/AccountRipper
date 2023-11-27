@@ -1,6 +1,9 @@
 #images
 *.jpg
 
+#
+twitterkeys.py
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
