@@ -1,0 +1,15 @@
+<html>
+    <head>
+    <title>HTMLDOC</title>
+    <script src="https://unpkg.com/htmx.org@1.9.10" integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC" crossorigin="anonymous"></script>
+    </head>
+    <body>
+    <h1>Account Ripper</h1>
+    <p>this is an HTML doc</p>
+    <a id="htmx-link" hx-get="{% url 'home' %}" hx-target="#random-btn">home</a>
+    <button id="random-btn" >Random button</button>
+    <br><br><br>
+    <a href="{% url 'index' %}">index</a>
+    <a hx-get="{% url 'test' %}">test</a>
+    </body>
+</html>

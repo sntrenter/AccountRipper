@@ -22,5 +22,10 @@ maybe use a 3rd party tool but it looks like we are going BS4 route :|
 
 
 - set up database
+- VENV COMMAND
+```
+source AccountRipper/venv/bin/activate
+python manage.py runserver
+```
 
 2023-10-24_19-28-45_0
